@@ -19,7 +19,7 @@ ZSH_THEME='kphoen'
 [[ -f "$HOME/.dircolors" ]] \
     && eval "$(dircolors "$HOME/.dircolors")"
 
-plugins=(git z zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git z zsh-syntax-highlighting)
 
 HISTCONTROL=ignoreboth
 HISTTIMEFORMAT="%Y-%m-%d %T "
