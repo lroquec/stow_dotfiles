@@ -64,9 +64,9 @@ neofetch
 #######################################################
 
 # Install Starship - curl -sS https://starship.rs/install.sh | sh
-# eval "$(starship init bash)"
+eval "$(starship init bash)"
 # Or
-source $HOME/.fancy-bash-promt.sh
+#source $HOME/.fancy-bash-promt.sh
 source $HOME/.bash_aliasses
 source $HOME/.bash_functions
 
