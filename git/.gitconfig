@@ -92,7 +92,7 @@
 	unmerged = 9 bold reverse
 
 [commit]
-	gpgSign = true
+	gpgSign = false
 	status = true
 
 [diff]
