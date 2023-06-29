@@ -8,7 +8,7 @@ alias mlequi='ssh -p 22121 -D 8080 laura.roque@94.142.129.49'
 alias startvpn='openvpn3 session-start --config Eurona'
 alias stopvpn='openvpn3 session-manage --disconnect --config Eurona'
 alias downdrive='rclone sync eurona:Documentos /home/laura/Eurona/Documentos/ && rclone sync eurona:Downloads /home/laura/Eurona/Downloads/'
-alias updrive='rclone sync /home/laura/Eurona/Documentos/ eurona:Documentos && rclone sync /home/laura/Eurona/Downloads/ eurona:Downloads'
+alias updrive='rclone sync /home/laura/Eurona/Documentos/ eurona:Documentos --drive-import-formats docx && rclone sync /home/laura/Eurona/Downloads/ eurona:Downloads --drive-import-formats docx'
 alias moundrive='rclone mount --daemon eurona: /home/laura/Eurona/mount/'
 #######################################################
 # GENERAL ALIAS'S
