@@ -63,25 +63,13 @@ neofetch
 # Set the ultimate amazing command prompt
 #######################################################
 
-# Install Starship - curl -sS https://starship.rs/install.sh | sh
-eval "$(starship init bash)"
-# Or
 #source $HOME/.fancy-bash-promt.sh
 source $HOME/.bash_aliasses
-source $HOME/.bash_functions
+#source $HOME/.bash_functions
 
-#Autojump
-
-if [ -f "/usr/share/autojump/autojump.sh" ]; then
-	. /usr/share/autojump/autojump.sh
-elif [ -f "/usr/share/autojump/autojump.bash" ]; then
-	. /usr/share/autojump/autojump.bash
-else
-	echo "can't found the autojump script"
-fi
 # Setup Vagrant
-export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
-export VAGRANT_WSL_WINDOWS_ACCESS_USER_HOME_PATH="/mnt/c/Users/lroqu/"
-export PATH="$PATH:/mnt/d/Programs/Virtualbox"
+#export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+#export VAGRANT_WSL_WINDOWS_ACCESS_USER_HOME_PATH="/mnt/c/Users/lroqu/"
+#export PATH="$PATH:/mnt/d/Programs/Virtualbox"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
